@@ -1,0 +1,46 @@
+.work-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+    margin-bottom: 50px;
+  }
+  .work .list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+  .work {
+    padding-bottom: 94px;
+  }
+  .work-img {
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    position: relative;
+  }
+  .work-img:not(:last-child) {
+    margin-right: 30px;
+  }
+  .work-active {
+    background: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .active-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+  }
