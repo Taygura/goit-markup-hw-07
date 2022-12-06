@@ -7,14 +7,14 @@
     color: var(--brand-color);
     margin-bottom: 50px;
   }
-  .work .list {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    list-style: none;
-  }
   .work {
     padding-bottom: 94px;
+    .list {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      list-style: none;
+    }
   }
   .work-img {
     flex-basis: calc((100% - 2 * 30px) / 3);

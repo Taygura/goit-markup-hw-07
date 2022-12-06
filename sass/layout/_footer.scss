@@ -13,6 +13,15 @@
       display: flex;
       background-color: #2f303a;
     }
+
+    .logo {
+      display: block;
+      padding-bottom: 20px;
+    }
+
+    .icon-link {
+      fill: #ffffff;
+    }
   }
   .address-link-link {
     font-weight: 400;
@@ -35,10 +44,7 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
   }
-  .address .logo {
-    display: block;
-    padding-bottom: 20px;
-  }
+
   .address-li {
     margin-bottom: 9px;
   }
@@ -73,10 +79,6 @@
     margin-right: 0;
   }
   .a-goin{
-    &:hover, &:focus
-{ background-color: #2196f3;
-}}
-  .a-goin {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -85,7 +87,8 @@
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     transition: 250ms linear;
-  }
-  .address .icon-link {
-    fill: #ffffff;
-  }
+
+    &:hover, &:focus
+{ background-color: #2196f3;
+}}
+
