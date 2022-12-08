@@ -1,4 +1,4 @@
-.work__link {
+.work__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -16,14 +16,21 @@
       list-style: none;
     }
   }
-  .work__img {
+  .work__list{
+    display: flex;
+    justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+  .work__item {
     flex-basis: calc((100% - 2 * 30px) / 3);
     position: relative;
   }
-  .work__img:not(:last-child) {
+  .work__item:not(:last-child) {
     margin-right: 30px;
   }
-  .work__active {
+  .work__tumb {
     background: rgba(47, 48, 58, 0.8);
     height: 70px;
     position: absolute;
