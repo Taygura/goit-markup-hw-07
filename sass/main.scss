@@ -1,13 +1,13 @@
 // base
 @import "./base/_base.scss";
-@import "./utils/variabls";
 @import "./base/logo-web";
+@import "./utils/variabls";
+
 
 
 // UTILS
 @import "./utils/_visually-hidden";
 // COMPONENTS
-@import "./components/_logo";
 @import "./components/_butoon";
 @import "./components/modal";
 // LAYOUT

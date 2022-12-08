@@ -1,4 +1,4 @@
-.work-link {
+.work__link {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -16,14 +16,14 @@
       list-style: none;
     }
   }
-  .work-img {
+  .work__img {
     flex-basis: calc((100% - 2 * 30px) / 3);
     position: relative;
   }
-  .work-img:not(:last-child) {
+  .work__img:not(:last-child) {
     margin-right: 30px;
   }
-  .work-active {
+  .work__active {
     background: rgba(47, 48, 58, 0.8);
     height: 70px;
     position: absolute;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
   }
-  .active-text {
+  .work__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;

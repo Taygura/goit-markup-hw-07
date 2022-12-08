@@ -14,16 +14,11 @@
       background-color: #2f303a;
     }
 
-    .logo {
-      display: block;
-      padding-bottom: 20px;
-    }
-
-    .icon-link {
+    .butoon-address__icon {
       fill: #ffffff;
     }
   }
-  .address-link-link {
+  .all-address__link-link {
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
@@ -33,7 +28,7 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
   }
-  .address-link {
+  .all-address__link {
     width: 231px;
     font-weight: 400;
     font-size: 14px;
@@ -45,7 +40,7 @@
     transition-timing-function: linear;
   }
 
-  .address-li {
+  .all-address__li {
     margin-bottom: 9px;
   }
   .all-address {
@@ -62,12 +57,12 @@
   .butoon-address {
     padding-top: 12px;
   }
-  .goin-here {
+  .butoon-address__here {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .goin-link {
+  .butoon-address__link {
     width: 44px;
     height: 44px;
     margin-right: 10px;
@@ -75,10 +70,10 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
   }
-  .goin-link:last-child {
+  .butoon-address__link:last-child {
     margin-right: 0;
   }
-  .a-goin{
+  .butoon-address__a{
     width: 100%;
     height: 100%;
     border-radius: 50%;

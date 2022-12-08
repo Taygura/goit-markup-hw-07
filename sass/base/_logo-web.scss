@@ -1,9 +1,26 @@
-.logo {
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  
-  .web {
-    color: black;
-  }
-  
+.container__logo {
+  margin-right: 93px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  display: block;
+  padding-bottom: 20px;
+}
+.container__web {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container__web {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(32 / 26);
+  letter-spacing: 0.03em;
+  color: var(--header-hover);
+}
+.container__web {
+  color: black;
+}

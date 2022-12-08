@@ -13,7 +13,7 @@
     letter-spacing: 0.03em;
     color: var(--next-color);
   }
-  .address-li {
+  .all-address__li {
     width: 100%;
     font-style: normal;
   }
@@ -24,13 +24,13 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
-  .web-2 {
+  .container__web-2 {
     color: var(--next-color);
   }
   .footer {
     padding-top: 60px;
 
-    .list {
+    .all-address__list {
       margin-top: 20px;
     }
   }

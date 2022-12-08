@@ -15,19 +15,19 @@
       margin-top: 16px;
       margin-bottom: 30px;
     }
-    .social-link{
+    .all-team__social-link{
       &:hover, &:focus{
       background-color: #2196f3;
       color: #ffffff;
     }}
-    .social-link{&:hover .icon-link, &:focus .icon-link{
+    .all-team__social-link{&:hover .icon-link, &:focus .icon-link{
       color: #ffffff;
     }}
-    .icons:last-child {
+    .all-team__icons:last-child {
       margin-right: 0;
     }
   }
-  .team-link {
+  .all-team__link {
     background: var(--next-color);
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -35,11 +35,11 @@
     border-radius: 0px 0px 4px 4px;
     height: 426px;
   }
-  .team-link:not(:last-child) {
+  .all-team__link:not(:last-child) {
     margin-right: 30px;
     flex-basis: calc((100% - 3 * 30px) / 4);
   }
-  .team-link:not(:first-child) {
+  .all-team__link:not(:first-child) {
     margin-left: 30px;
   }
   .team-line {
@@ -54,7 +54,7 @@
   .all-team {
     padding-bottom: 94px;
   }
-  .team-list {
+  .all-team__list {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 12);
@@ -65,7 +65,7 @@
     text-align: center;
     margin-bottom: 10px;
   }
-  .team-link-list {
+  .all-team__link-list {
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
@@ -73,13 +73,13 @@
     color: var(--second-color);
     text-align: center;
   }
-  .icon-link {
+  .all-team__icon-link {
     fill: currentColor;
   }
-  .social-icons {
+  .all-team__social-icons {
     justify-content: center;
   }
-  .social-link {
+  .all-team__social-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -112,10 +112,10 @@
     color: #212121;
     margin-bottom: 50px;
   }
-  .compain-link {
+  .compain__link {
     display: inline-block;
   }
-  .compain-list {
+  .compain__list {
     width: 100%;
     height: 100%;
     color: #afb1b8;
@@ -128,14 +128,14 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
   }
-  .icon-logo {
+  .compain__logo {
     margin: 16px 32px;
     fill: currentColor;
   }
-  .compain-link:not(:last-child) {
+  .compain__link:not(:last-child) {
     margin-right: 20px;
   }
-  .alltime-clients .compain-list{&:hover, &:focus {
+  .alltime-clients .compain__list{&:hover, &:focus {
     color: #2196f3;
     border: 1px solid #2196f3;
     border-radius: 4px;

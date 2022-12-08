@@ -1,4 +1,4 @@
-.proda-list {
+.proda__list {
     padding: 0;
     margin: 0;
     display: flex;
@@ -8,10 +8,10 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .proda-list-item {
+  .proda__item {
     flex-basis: calc((100% - 3 * 30px) / 4);
   }
-  .big-icon {
+  .proda__big-icon {
     background: #f5f4fa;
     width: 270px;
     height: 120px;
@@ -19,15 +19,15 @@
     align-items: center;
     justify-content: center;
   }
-  .proda-icon {
+  .proda__icon {
     border-radius: 4px;
   }
-  .proda-list-item:not(:last-child) {
+  .proda__item:not(:last-child) {
     margin-right: 30px;
     width: 270px;
     height: 120px;
   }
-  .proda-link {
+  .proda__link {
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 12);
@@ -35,7 +35,7 @@
     text-transform: uppercase;
     color: var(--brand-color);
   }
-  .proda-link-link {
+  .proda__link-link {
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
