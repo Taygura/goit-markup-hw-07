@@ -35,11 +35,17 @@ p {
   letter-spacing: 0.03em;
   color: #2196f3;
   display: block;
-  padding-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container__web {
   font-family: "Raleway", sans-serif;
+}
+
+.address .container__logo {
+  margin-bottom: 20px;
 }
 
 .container__web {
@@ -435,6 +441,7 @@ p {
       -ms-flex-align: baseline;
           align-items: baseline;
   background-color: #ffffff;
+  align-items: center;
 }
 
 .page-header .logo {
@@ -448,6 +455,9 @@ p {
   list-style: none;
   padding-left: 0;
   margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-list__link .header-contakts__list {
@@ -600,7 +610,7 @@ p {
   list-style: none;
 }
 
-.proda {
+.proda .container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -966,11 +976,13 @@ p {
 }
 
 .address__link-map {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #FFFFFF;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
   -webkit-transition-duration: 250ms;
@@ -1096,9 +1108,12 @@ p {
   transition-property: background-color, color;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
-  padding-top: 94px;
   -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
+}
+.project .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .project__list {
@@ -1183,7 +1198,6 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-left: 0;
-  margin: 0;
 }
 
 .job-list__item {

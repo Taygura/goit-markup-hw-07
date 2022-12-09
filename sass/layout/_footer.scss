@@ -25,11 +25,13 @@
   list-style: none;
 }
 .address__link-map {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #FFFFFF;
   transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: linear;

@@ -1,10 +1,13 @@
-.project { 
+.project{ 
     margin-right: 8px;
     transition-property: background-color, color;
     transition-duration: 250ms;
-    padding-top: 94px;
     transition-timing-function: linear;
-  }
+    .container{
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+}
   .project__list {
     display: flex;
     justify-content: center;
@@ -72,8 +75,7 @@
     list-style: none;
     flex-wrap: wrap;
     padding-left: 0;
-    margin: 0;
-  }
+      }
   .job-list__item{
     flex-basis: calc((100% - 3 * 30px) / 3);
     margin-right: 30px;
